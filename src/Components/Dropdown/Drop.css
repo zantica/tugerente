@@ -1,0 +1,65 @@
+.challenge-container {
+  background-image: url(https://www.onlygfx.com/wp-content/uploads/2021/04/white-triangle-pattern-seamless-background-5.jpg);
+  background-attachment: fixed;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 2rem;
+  width: 50vw;
+  height: 10vh;
+}
+
+.input-container input {
+  background-color: rgb(158, 18, 18);
+  border: none;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  height: 3rem;
+  width: 15rem;
+  color: white;
+  font-weight: 400;
+  font-size: 1.3rem;
+  outline: none;
+}
+
+.input-container input::placeholder {
+  color: white;
+  padding-left: 0.5rem;
+}
+
+.input-container button {
+  width: 2rem;
+  height: 2rem;
+  font-weight: 400;
+  color: #ffffff;
+  border: none;
+  background-color: rgb(201, 62, 62);
+  border-radius: 1rem;
+}
+
+.input-container button:active {
+  transform: scale(0.95);
+}
+
+.card-container {
+  height: 100%;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.tuGerente {
+  color: rgb(158, 18, 18);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: flex-start;
+  padding: 3rem;
+}

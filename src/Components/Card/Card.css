@@ -1,0 +1,24 @@
+.card-style {
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  height: 30rem;
+  width: 25rem;
+  object-fit: cover;
+  background-color: beige;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 5px 5px 17px -1px #000000;
+}
+.card-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card-style img {
+  width: 15vw;
+  object-fit: scale-down;
+}
