@@ -60,3 +60,6 @@ Al desplegarlo consultará al backend por data buscando coincidencias según el 
 Debe permitir ver detalles del atributo objeto consultado se mostrará al usuario. <br/>
 Para esta prueba se utilizo una API externa, ya que no supe como integrar el APIKEY(obtenido) a los endpoints.
 APIKEY = oSQgwFnvwVigT8OLWciOSfSq3txdxqI8hZ1BfpVA
+
+Para poder probarlo realizar npm install y luego npm start
+
